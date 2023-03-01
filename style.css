@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ECF2F8;
+    font-size: 13px;
+}
+
+#container-principal {
+    padding: 13% 6%;
+}
+
+.testimon {
+    padding: 8.5%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+#card-1 {
+    background-color: #7541C8;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#card-2 {
+    background-color: #48556A;
+    color: #FFFFFF;
+}
+
+#card-3 {
+    background-color: #FFFFFF;
+    color: #48556A;
+}
+
+#card-4 {
+    background-color: #19212E;
+    color: #FFFFFF;
+}
+
+#card-5 {
+    background-color: #FFFFFF;
+    color: #48556A;
+}
+
+#personal-info-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    z-index: 3;
+    position: relative;
+}
+
+#personal-info-text {
+    margin-left: 0px;
+}
+#card-1 h2{
+    position: relative;
+    z-index: 2;
+}
+#verified {
+    opacity: 50%;
+}
+
+#long-review {
+    opacity: 70%;
+}
+
+#personal-image {
+    margin-left: -10px;
+    border-radius: 50%;
+    transform: scale(0.6);
+}
+
+#card-1 img {
+    border: 3px solid #9776cb;
+}
+
+#card-4 img {
+    border: 3px solid #7541C8;
+}
+
+#short-review {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 500;
+}
+#quote{
+    position: absolute;
+    right: 6%;
+    top: 0px;
+    z-index: 1;
+}
+@media (min-width: 576px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimon {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    #container-principal {
+        display: flex;
+        justify-content: space-between;
+        padding: 10% 11%;
+    }
+
+    #container-left {
+        display: flex;
+        flex-basis: 78%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #container-left-up {
+        display: flex;
+        height: 48%;
+        justify-content: space-between;
+    }
+
+    #card-1 {
+        flex-basis: 64%;
+        
+    }
+
+    #card-2 {
+        flex-basis: 34%;
+        padding: 2% 6%;
+    }
+
+    #container-left-dawn {
+        display: flex;
+        height: 48%;
+        justify-content: space-between;
+    }
+
+    #card-3 {
+        flex-basis: 34%;
+        padding: 2% 6%;
+    }
+
+    #card-4 {
+        flex-basis: 64%;
+    }
+
+    #card-5 {
+        flex-basis: 20%;
+    }
+    #quote{
+        right: 15%;
+    }
+}
+
+.attribution {
+    padding: 2%;
+   
+}
